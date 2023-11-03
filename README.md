@@ -1,87 +1,29 @@
-# IITM_PROJECT
-# 𝐅𝐮𝐥𝐥 𝐒𝐭𝐚𝐜𝐤 𝐓𝐨𝐝𝐨 𝐋𝐢𝐬𝐭 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 🚀
+# Simple Todo  Web App with Tailwind CSS and JavaScript
 
-<br/>
-<p align="center">
-<img src="https://user-images.githubusercontent.com/76626529/185441736-3de3ccec-045d-42b2-9533-b786fdf12e02.png">
-</p>
+This repository contains a simple and elegant Todo List web app built using Tailwind CSS and JavaScript. The app allows users to create, manage, and save todos, all while enjoying a beautiful user interface design.
 
-## ⭐ Introduction
+## Features
 
-This project is a Full Stack Todo List Application which is built using the MongoDB, NodeJS, ExpressJS, CSS, Javascript. It implements all the basic functionalities of a todo list, i.e, CRUD Operations (Create Read Update Delete).
+- Add new todos with a user-friendly interface.
+- Mark todos as completed.
+- Delete completed todos or those no longer needed.
+- Save todos to the local storage for persistent data.
+- Schedule your to-dos
+- Change to-dos status
+- Filter to-dos by status
 
--  Users are able to Create new tasks.
--  Users are able to Read the created tasks data.
--  Users are able to Complete the task by checking off the task with a strike through.
--  Users are able to Delete the task.
--  Users are able to Update the tasks with many customized options.
-   Users are able to View a Banner with current date-time.
--  Users can Check the count of remaining tasks, Complete all tasks together, Delete all completed tasks together.
--  Users can View All, Incomplete, Completed Tasks.
--  Users can mark Due Date & Priority Levels for the Tasks.
-   <br/>
-   <br/>
+## Live Demo
 
-## 🔥 Getting Started With The Project
+You can check out the live demo of the Todo List web app [here](https://abdellatif-laghjaj.github.io/todo-list/)).
 
--  Fork the Project in your Repository.
--  Clone the Forked Repository in your Local System.
--  Install & Configure - NodeJS, MongoDB, Robo3T.
--  Create '.env' file & Set the Environment Variables in it, as per the 'ENV_FORMAT.json' file.
--  Run 'npm install' in GitBash Terminal
--  Go to 'package.json' & inside the 'SCRIPTS', find "start":"...." <br/>
-   Change it to - "start": "nodemon index.js",
--  If you want to run the project in development mode locally then go to '.env' file & set,<br/>
-   ENVIRONMENT=development <br/>
-   DEPLOYMENT=local
--  If you want to run the project in production mode locally then go to '.env' file & set,<br/>
-   ENVIRONMENT=production <br/>
-   DEPLOYMENT=local
--  Change "module.exports = production" to "module.exports = development" or vice-versa in the 'environment.js' file as per the requirement.
--  Run 'npm start' in GitBash Terminal
--  Enjoy :)
+## Screenshots
 
-For any issues related to the project, raise an ISSUE in the respective Repository.
-<br/>
-<br/>
-
-## 🔨 Tools Used
-
-<p align="justify">
-<img height="140" width="140" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png">
-<img height="140" width="140" src="https://logodix.com/logo/470309.png">
-<img height="140" width="140" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
-<img height="140" width="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2l-4Y-ZVZm77rzV9CRJxmgNPpy36zgePIA&usqp=CAU">
-<img height="140" width="140" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMX7p-_Zo1LqsEfO1v3B6Zw0Jgvhk4vo1fKA&usqp=CAU">
-<img height="140" width="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASBParCnQhsRkKZ8opkkRjtk9XJ-MHdy0jA&usqp=CAU">
-<img height="140" width="140" src="https://code.visualstudio.com/assets/apple-touch-icon.png">
-</p>
-
--  Library:
-   -  cors
-   -  dotenv
-   -  ejs
-   -  express
-   -  mongoose
-   -  nodemon
-   -  express-ejs-layouts
--  Framework: ExpressJS
--  Database: MongoDB
--  Version Control System: Git
--  VCS Hosting: GitHub
--  Programming / Scripting: JavaScript
--  Front-End: HTML, CSS, EJS
--  Runtime Environment: NodeJS
--  Integrated Development Environment: VSCode
-   <br/>
-   <br/>
+![image](https://github.com/abdellatif-laghjaj/todo-list/assets/79521157/2bc510e2-5f2f-456b-acc2-31b8c8232d93)
 
 
-<br/>
+## Technologies Used
 
-## 💻 Screens
-
-<p align="justify">
-<img src="https://user-images.githubusercontent.com/76626529/185441736-3de3ccec-045d-42b2-9533-b786fdf12e02.png">
-</p>
-<br/>
+- HTML5: The structure of the web app.
+- CSS3 with Tailwind CSS: For styling the app beautifully.
+- JavaScript: To handle the interactive functionality of the app.
+- Local Storage: To save todos for persistent data across browser sessions.
